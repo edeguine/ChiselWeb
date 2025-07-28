@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting to Dropbox...</title>
+  <script>
+    setTimeout(() => {
+      const target = new URLSearchParams(window.location.search).get("target");
+      window.location.href = target;
+    }, 2000);
+  </script>
+</head>
+<body>
+  <p>Opening Dropbox login page...</p>
+</body>
+</html>
